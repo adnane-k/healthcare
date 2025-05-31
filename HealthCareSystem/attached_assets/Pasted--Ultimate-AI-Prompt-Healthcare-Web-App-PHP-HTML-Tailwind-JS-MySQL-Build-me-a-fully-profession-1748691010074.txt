@@ -1,0 +1,116 @@
+🔧 Ultimate AI Prompt – Healthcare Web App (PHP/HTML/Tailwind/JS/MySQL)
+
+Build me a fully professional, responsive healthcare web application using pure PHP, HTML, Tailwind CSS, vanilla JavaScript, and MySQL.
+
+❌ Do not use any JavaScript or PHP frameworks.
+✅ The site must look and feel like a native mobile app (PWA-like UI) on Android/iOS.
+
+🧠 Main Features:
+
+User Authentication
+
+Signup / Login system
+
+Email verification
+
+One-year free access, then upgrade to premium (freemium model)
+
+Smart Health Chatbot
+
+Chatbot that interacts with users daily
+
+Analyzes their health status based on daily inputs
+
+Gives daily personalized health advice & reminders
+
+If the user shows signs of illness, the bot flags it and recommends actions or doctors
+
+Especially focuses on early detection of cancer
+
+Based on answers, it gives programs for prevention or recovery
+
+If no illness is detected, it still provides personalized advice to stay healthy
+
+QCM Diagnosis System
+
+Multi-question health QCM
+
+Auto-detect potential diseases based on responses
+
+Detect risk of cancer using pre-defined logic rules
+
+Suggest custom nutrition + medical routines based on the condition
+
+Save user progress
+
+Notification System
+
+Sends reminders via notifications
+
+Reminds users daily to follow their health programs
+
+Warns if they skip too many sessions or show signs of illness
+
+User Dashboard
+
+View health scores, QCM history
+
+Daily tasks (what to eat, what to avoid, checkups to do)
+
+Health journal input
+
+Admin Dashboard
+
+View/manage all users
+
+See flagged medical risks
+
+Manage QCMs, chatbot logic, health advice database
+
+Subscription management (who’s free/premium)
+
+Subscription System
+
+First year free
+
+After that, payment required
+
+Integrate both Stripe and PayPal
+
+🌐 Design & UX:
+
+Clean, medical-style UI (green/blue tones)
+
+Mobile-first and looks like native mobile app (using Tailwind CSS)
+
+Animations: transitions, modals, sliders, fade-in-out, chatbot interaction effects
+
+Intuitive forms, charts, step-by-step assessment UI
+
+Tabs, collapsibles, toast notifications
+
+Full multi-language support: English, French, Arabic
+
+📂 Structure & Technical Requirements:
+
+Full folder structure: public/, includes/, admin/, assets/, sql/, chatbot/
+
+SQL schema with users, health_logs, chatbot_logs, qcm_answers, subscriptions, payments
+
+Use Chart.js or vanilla JS for displaying health trends
+
+Store all chatbot messages in DB for future analysis
+
+Code comments for PHP + JavaScript files
+
+Mobile-first design using only Tailwind CSS
+
+All JS in vanilla, modular and reusable
+
+📦 Bonus:
+
+Create dummy users and pre-filled chatbot sessions
+
+Add a “Dark Mode” toggle
+
+Offline message saving (optional)

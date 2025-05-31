@@ -1,0 +1,67 @@
+{
+  "name": "HealthGuard - AI Cancer Risk Assessment",
+  "short_name": "HealthGuard",
+  "description": "Advanced AI-powered cancer risk assessment and personalized health recommendations",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0EA5E9",
+  "theme_color": "#0EA5E9",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%230EA5E9;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%2310B981;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='192' height='192' fill='url(%23grad)' rx='20'/%3E%3Cpath d='M96 40c-30.9 0-56 25.1-56 56s25.1 56 56 56 56-25.1 56-56-25.1-56-56-56zm23.7 37.3a4 4 0 0 0-5.7-5.7L96 89.6 78 71.6a4 4 0 1 0-5.7 5.7l22 22a4 4 0 0 0 5.7 0l22-22z' fill='white'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%230EA5E9;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%2310B981;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='512' height='512' fill='url(%23grad)' rx='50'/%3E%3Cpath d='M256 100c-86 0-156 70-156 156s70 156 156 156 156-70 156-156-70-156-156-156zm66 110a12 12 0 0 0-17-17l-60 60-30-30a12 12 0 1 0-17 17l39 39a12 12 0 0 0 17 0l68-68z' fill='white'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 390 844'%3E%3Crect width='390' height='844' fill='%23f8fafc'/%3E%3Ctext x='195' y='422' text-anchor='middle' font-family='Arial' font-size='20' fill='%23374151'%3EHealthGuard Mobile%3C/text%3E%3C/svg%3E",
+      "sizes": "390x844",
+      "type": "image/svg+xml",
+      "form_factor": "narrow",
+      "label": "HealthGuard mobile interface"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080'%3E%3Crect width='1920' height='1080' fill='%23f8fafc'/%3E%3Ctext x='960' y='540' text-anchor='middle' font-family='Arial' font-size='48' fill='%23374151'%3EHealthGuard Desktop%3C/text%3E%3C/svg%3E",
+      "sizes": "1920x1080",
+      "type": "image/svg+xml",
+      "form_factor": "wide",
+      "label": "HealthGuard desktop interface"
+    }
+  ],
+  "categories": ["health", "medical", "fitness"],
+  "lang": "en",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "New Assessment",
+      "short_name": "Assessment",
+      "description": "Start a new cancer risk assessment",
+      "url": "/?page=assessment",
+      "icons": [{"src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230EA5E9'%3E%3Cpath d='M9 2a1 1 0 0 0 0 2h2a1 1 0 1 0 0-2H9z'/%3E%3Cpath fill-rule='evenodd' d='M4 5a2 2 0 0 1 2-2v1a1 1 0 1 0 2 0V3h4v1a1 1 0 1 0 2 0V3a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5z'/%3E%3C/svg%3E", "sizes": "24x24"}]
+    },
+    {
+      "name": "HealthBot",
+      "short_name": "Chat",
+      "description": "Chat with AI health assistant",
+      "url": "/?page=chatbot",
+      "icons": [{"src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2310B981'%3E%3Cpath fill-rule='evenodd' d='M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 0 1-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7z'/%3E%3C/svg%3E", "sizes": "24x24"}]
+    },
+    {
+      "name": "Find Doctors",
+      "short_name": "Doctors",
+      "description": "Find nearby healthcare providers",
+      "url": "/?page=doctor-finder",
+      "icons": [{"src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23F59E0B'%3E%3Cpath fill-rule='evenodd' d='M5.05 4.05a7 7 0 1 1 9.9 9.9L10 18.9l-4.95-4.95a7 7 0 0 1 0-9.9zM10 11a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'/%3E%3C/svg%3E", "sizes": "24x24"}]
+    }
+  ]
+}
